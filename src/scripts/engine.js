@@ -27,6 +27,7 @@ const cardData = [
   name: 'Papel',
   type: 'Papel',
   img: '../src/assets/icons/papel.png',
+
   WinOf: [1],
   LoseOf: [2],
  },
@@ -102,7 +103,7 @@ async function checkDuelResults(playerCardId, computerCardId) {
 async function createCardImage(randomIdCard, fieldSide) {
  const cardImage = document.createElement('img')
  cardImage.setAttribute('height', '100px')
- cardImage.setAttribute('src', '../src/assets/icons/jokepo.png')
+ cardImage.setAttribute('src', './src/assets/icons/jokepo.png')
  cardImage.setAttribute('data-id', randomIdCard)
  cardImage.classList.add('card')
 
@@ -115,7 +116,9 @@ async function createCardImage(randomIdCard, fieldSide) {
    drawSelectCard(randomIdCard)
   })
 
-  cardImage.setAttribute('src', '../src/assets/icons/jokepo.png')
+     cardImage.setAttribute('src', './src/assets/icons/jokepo.png')
+     
+
  }
 
  return cardImage

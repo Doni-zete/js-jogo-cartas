@@ -1,4 +1,4 @@
- # :computer:  Simulador de Piano
+ # :computer:  Pedra, pape e tesoura
 ######  Layout do Projeto Concluído
 ![Pagina do jogo](https://github.com/Doni-zete/js-jogo-cartas/blob/main/src/assets/video/jokepo.gif)
 
